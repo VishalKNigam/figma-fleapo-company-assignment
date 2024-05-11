@@ -11,13 +11,13 @@
 .parent-container{
     width: 100%;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: hsl(222, 100%, 98%);
 }
 .top-background{
     background-image: url("./assets/bold.jpg");
     background-repeat: no-repeat;
-    background-size: calc(100%);
+    background-size: cover;
     background-position: center;
     background-position-y: 50%;
     
@@ -437,9 +437,17 @@ nav div:nth-child(3) > button{
     justify-content: space-evenly;
 }
 .faq-section > div:first-child{
-    margin-top: 270px;
     width: 454px;
     height: 500px;
+    background-image: url("./assets/faq-image.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 7%;
+    margin-top: 5%;
 }
 .faq-section > div:first-child > p {
     font-family: "Raleway",sans-serif;
